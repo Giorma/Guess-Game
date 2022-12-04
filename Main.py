@@ -22,10 +22,10 @@ def guess_game():
         elif userinput >= 101:
             print("Please enter between 1-100")
 
-        elif userinput <= rand:
+        elif userinput < rand:
             print("Too Low please enter little bit higher")
 
-        elif userinput >= rand:
+        elif userinput > rand:
             print("Too high please enter little bit lower")
 
         else:
